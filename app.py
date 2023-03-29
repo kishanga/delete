@@ -18,7 +18,7 @@ if st.button('Predict PSQM of Property'):
     # Create a DataFrame with the input features
     input_df = pd.DataFrame({
         'age': [age],
-        'distance_from_town': [distance_from_town]
+        'distance from town': [distance_from_town]
     })
 
     # Make the prediction
